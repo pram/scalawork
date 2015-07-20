@@ -1,2 +1,2 @@
 # scalawork
-Scala related development
+Scala related development and simple projects
