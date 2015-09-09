@@ -1,0 +1,3 @@
+# scalawork
+
+Scala related development
