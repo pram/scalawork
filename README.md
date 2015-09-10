@@ -1,3 +1,3 @@
-# scalawork
+# Scala Work
 
 Scala related development
