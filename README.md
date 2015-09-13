@@ -1,3 +1,3 @@
 # Scala Work
 
-Scala related development
+Scala related development and projects
