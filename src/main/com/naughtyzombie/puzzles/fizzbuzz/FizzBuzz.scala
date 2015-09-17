@@ -25,9 +25,6 @@ object FizzBuzz {
   }
 
   def main(args: Array[String]) {
-    println(getFizzBuzz(1))
-    println(getFizzBuzz(3))
-    println(getFizzBuzz(5))
-    println(getFizzBuzz(15))
+    (1 until 100).map (i => getFizzBuzz(i)).foreach(println)
   }
 }
