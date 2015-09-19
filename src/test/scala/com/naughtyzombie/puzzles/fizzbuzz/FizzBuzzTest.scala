@@ -19,4 +19,16 @@ class FizzBuzzTest extends UnitSpec {
     FizzBuzz.getFizzBuzz(15) should be ("FizzBuzz")
   }
 
+  it should "Print 1" in {
+    FizzBuzz.getFizzBuzz(1) should be ("1")
+  }
+
+  it should "Print 2" in {
+    FizzBuzz.getFizzBuzz(2) should be ("2")
+  }
+
+  it should "Print 14" in {
+    FizzBuzz.getFizzBuzz(14) should be ("14")
+  }
+
 }
