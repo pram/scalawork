@@ -12,6 +12,8 @@ class MoneyTest extends UnitSpec {
   }
 
   it should "be GBP" in {
-    Money(1000,"USD").currency should be ("USD")
+    val money: Money = Money(currency = "USD")
+    money.currency should be ("USD")
+    money.amount should be (100)
   }
 }
