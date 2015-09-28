@@ -1,0 +1,12 @@
+val fizzBuzz: PartialFunction[Int, String] = {
+  case x if (x % 3 == 0 && x % 5 == 0) => x + " FizzBuzz"
+  case x if x % 3 == 0 => x + " Fizz"
+  case x if x % 5 == 0 => x + " Buzz"
+  case x => x.toString
+}
+
+val sample = 1 to 100
+
+sample collect (fizzBuzz)
+
+sample map (fizzBuzz)
